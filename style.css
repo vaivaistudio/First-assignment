@@ -72,5 +72,44 @@ body h1 h2 h3{
 .about-text p {
     width: 400px;
     padding: 50px 0;
+    text-align: justify;
 }
-.about-text a{}
+
+/* Produck about css section */
+.produck-about{}
+.produck-text{
+    text-align: center;
+    padding: 30px 0;
+}
+.produck-text h1{
+    font-size: 30px;
+}
+.produck-text p{
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: justify;   
+}
+/* produck item section */
+
+.produck{
+    display: flex;
+    margin-left: 5%;
+   margin: 50px 0;
+}
+.produck-item{
+    width: 28%;
+    box-shadow: 1px 6px 20px rgb(0, 0, 0, .6);
+    margin-left: 3% ;
+    margin-right: 2%;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.produck-item h1{
+    padding: 10px 0;
+}
+.produck-item p{
+width: 250px;
+}
+

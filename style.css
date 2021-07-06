@@ -30,9 +30,8 @@ body h1 h2 h3{
 }
 .hedar-text h1 {
     font-size: 65px;
-    margin: 46px 0;
+    margin-top: 50px;
     font-weight: 800;
-
 }
 .hedar-text h1 span {
     color: orange;
@@ -42,8 +41,36 @@ body h1 h2 h3{
     font-size: 20px;
     margin: 60px 0;
 }
-
 .hedar-image{
     width: 45%;
     margin-left: 5%;
 }
+
+/* My About Section css */
+
+.about-section{
+    background-image: url(photo/about-bg-2.png);
+    margin-top: 50px;
+}
+.about-me{
+    display: flex;
+}
+.about-image{
+    width: 45%;
+    margin-left: 5%;
+}
+.about-image img{}
+.about-text{
+    width: 45%;
+    margin-left: 5%;
+}
+.about-text h1 {
+    font-size: 51px;
+    
+    margin-top: 80px;
+}
+.about-text p {
+    width: 400px;
+    padding: 50px 0;
+}
+.about-text a{}

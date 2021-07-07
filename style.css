@@ -97,19 +97,63 @@ body h1 h2 h3{
     margin-left: 5%;
    margin: 50px 0;
 }
-.produck-item{
-    width: 28%;
-    box-shadow: 1px 6px 20px rgb(0, 0, 0, .6);
-    margin-left: 3% ;
+.produck-item {
+    width: 26%;
+    box-shadow: 1px 2px 20px rgb(0 0 0 / 60%);
     margin-right: 2%;
     padding: 15px;
     border-radius: 15px;
-    
+    margin: auto;
 }
 .produck-item h1{
     padding: 10px 0;
 }
 .produck-item p{
-width: 250px;
+width: 100%;
+text-align: justify;
 }
 
+/* Craunt sectiopn css */
+
+.craunt{}
+.total-craunt{
+    display: flex;
+    margin: auto;
+    padding: 50px 0;
+    border-radius: 15px;
+    width: 95%;
+    margin-top:100px;
+
+    box-shadow: 2px 3px 15px rgb(0, 0, 0,.6);
+    
+}
+.crount-item{
+margin-left: 10%;
+width: 30%;
+text-align: left;
+
+}
+.crount-item h1{
+    font-size: 40px;
+    
+}
+.crount-item p{}
+
+/* Footer Section css */
+
+.footer-section{
+    background-color: rgb(0, 0, 0, 6);
+}
+.footer-text{
+    text-align: center;
+    margin-top: 90px;
+    padding: 50px 0;
+    color: #ffff;
+}
+.footer-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.footer-text p{
+    font-size: 20px;
+}
